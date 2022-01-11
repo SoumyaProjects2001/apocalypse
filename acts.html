@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Acts</title>
+
+    <!--                         Bootstrap CSS                                    -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="Styles/home-styles.css">
+    <link rel="stylesheet" href="Styles/acts-styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+
+    <!--                        Bootstrap JS                                  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+    <!--                                    NAVBAR                                                   -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="#">APOCALYPSE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active nn">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item nn">
+            <a class="nav-link" href="#">Our Team</a>
+          </li>
+          <li class="nav-item nn">
+            <a class="nav-link" href="#">Acts</a>
+          </li>
+          <li class="nav-item nn">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item nn">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item nn">
+            <a class="nav-link" href="#">Join Us</a>
+          </li>
+          <li class="nav-item nn">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item i1" style="margin-left: 25px;">
+            <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item i2">
+            <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item i3">
+            <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="A-Head">
+      <h1>ACTS</h1>
+    </div>
+
+    <div class="container">
+
+      <div class="A1">
+      <h1 class="AA-1">ACT 1</h1>
+      <img src="Images/Acts/A1.png" alt="" class="IA-1">
+      </div>
+
+      <div class="A2">
+      <h1 class="AA-2">ACT 2</h1>
+      <img src="Images/Acts/A2.png" alt="" class="IA-2">
+      </div>
+
+      <div class="A3">
+      <h1 class="AA-3">ACT 3</h1>
+      <img src="Images/Acts/A3.jpg" alt="" class="IA-3">
+      </div>
+
+    </div>
+
+
+    <!--                          JS SCRIPTS                                 -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+
+      <script>
+
+      $(document).ready(function(){
+        $(".AA-1").waypoint(function(direction){
+          $(".AA-1").addClass("animated fadeInLeft");
+        }, {
+          offset: '50%'
+        });
+      });
+
+      $(document).ready(function(){
+        $(".AA-2").waypoint(function(direction){
+          $(".AA-2").addClass("animated fadeInRight");
+        }, {
+          offset: '50%'
+        });
+      });
+
+      $(document).ready(function(){
+        $(".AA-3").waypoint(function(direction){
+          $(".AA-3").addClass("animated fadeInLeft");
+        }, {
+          offset: '50%'
+        });
+      });
+
+      $(document).ready(function(){
+        $(".IA-1").waypoint(function(direction){
+          $(".IA-1").addClass("animated fadeIn");
+        }, {
+          offset: '70%'
+        });
+      });
+
+      $(document).ready(function(){
+        $(".IA-2").waypoint(function(direction){
+          $(".IA-2").addClass("animated fadeIn");
+        }, {
+          offset: '70%'
+        });
+      });
+
+      $(document).ready(function(){
+        $(".IA-3").waypoint(function(direction){
+          $(".IA-3").addClass("animated fadeIn");
+        }, {
+          offset: '70%'
+        });
+      });
+
+      </script>
+
+
+  </body>
+</html>

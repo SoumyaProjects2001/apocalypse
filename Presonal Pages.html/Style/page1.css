@@ -1,0 +1,375 @@
+.MOBILE{
+  display: none;
+}
+
+li .i1{
+   margin-left: 25px;
+}
+
+.Sec1{
+  margin-top: 60px;
+}
+
+.Sec1 .col-lg-7{
+  left: 160px;
+}
+
+.Sec1 h1{
+  font-size: 3.5em;
+  margin-top: 15px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.Sec1 #H1{
+  margin-top: 50px;
+}
+
+.Sec1 img{
+  width: 65%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+.Sec1 .col-lg-5 i{
+  font-size: 30px;
+  margin-left: 45px;
+  margin-top: 40px;
+  transition: 1s ease all;
+  cursor: pointer;
+}
+
+.Sec1 .col-lg-5 .fa-facebook-f{
+  margin-left: 0px;
+}
+
+.Sec1 .col-lg-5 .fa-facebook-f:hover{
+  margin-right: 30px;
+  color: blue;
+}
+
+.Sec1 .col-lg-5 .fa-twitter:hover{
+  margin-right: 30px;
+  color: #51adcf;
+}
+
+.Sec1 .col-lg-5 .fa-instagram:hover{
+  color: #cc0e74;
+}
+
+.Sec2{
+  margin-top: 50px;
+  background-color: #fafafa;
+}
+
+.Sec2 .row{
+  margin-top: 50px;
+}
+
+.Sec2 h1{
+  font-size: 3em;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.Sec2 .col-lg-6 img{
+  width: 70%;
+  height: 80%;
+  box-shadow: -1px 1px 16px;
+}
+
+.Sec2 .col-lg-6 p{
+  padding-top: 100px;
+}
+
+.Sec3{
+  margin-top: 50px;
+}
+
+.Sec3 h1{
+  font-size: 3em;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+}
+
+.Sec3 .row{
+  margin-top: 50px;
+}
+
+.Sec3 .col-lg-6 h4{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.Sec3 .col-lg-6 img{
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  left: 120px;
+}
+
+.Sec4{
+  margin-top: 160px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.Sec4 h1{
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+.Sec4 form input{
+  margin-top: 20px;
+  margin-left: -200px;
+  width: 400px;
+  height: 36px;
+}
+
+.Sec4 form textarea{
+  margin-top: 20px;
+  resize: none;
+}
+
+.Sec4 form button{
+  margin-top: 25px;
+  width: 100px;
+}
+
+.Sec4 hr{
+  width: 700px;
+  margin-top: 40px;
+}
+
+.Sec4 i{
+  margin: 15px;
+  cursor: pointer;
+}
+
+.PA-1{
+  opacity: 0;
+}
+
+.PA-1 .animated{
+  opacity: 1;
+}
+
+.PA-2{
+  opacity: 0;
+}
+
+.PA-2 .animated{
+  opacity: 1;
+}
+
+.PA-3{
+  opacity: 0;
+}
+
+.PA-3 .animated{
+  opacity: 1;
+}
+
+.PA-4{
+  opacity: 0;
+}
+
+.PA-4 .animated{
+  opacity: 1;
+}
+
+.PA-5{
+  opacity: 0;
+}
+
+.PA-5 .animated{
+  opacity: 1;
+}
+
+.PA-6{
+  opacity: 0;
+}
+
+.PA-6 .animated{
+  opacity: 1;
+}
+
+.PA-7{
+  opacity: 0;
+}
+
+.PA-7 .animated{
+  opacity: 1;
+}
+
+.PA-8{
+  opacity: 0;
+}
+
+.PA-8 .animated{
+  opacity: 1;
+}
+
+.PA-9{
+  opacity: 0;
+}
+
+.PA-9 .animated{
+  opacity: 1;
+}
+
+.PA-10{
+  opacity: 0;
+}
+
+.PA-10 .animated{
+  opacity: 1;
+}
+
+@media screen and (max-width: 450px) {
+
+  .DESKTOP{
+    display: none;
+  }
+
+  .MOBILE{
+    display: block;
+  }
+
+  li .i1{
+     margin-left: auto;
+  }
+
+  .Sec1{
+    margin-top: 20px;
+  }
+
+  .Sec1 #H1{
+    margin-top: 10px;
+  }
+
+  .Sec1 h1{
+    font-size: 2.5em;
+    margin-top: 0px;
+    font-family: 'Cabin', sans-serif;
+  }
+
+  .Sec1 i{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 40px;
+    transition: 1s ease all;
+    cursor: pointer;
+  }
+
+  .Sec1 .fa-facebook-f{
+    margin-left: 0px;
+  }
+
+  .Sec1 .img-center{
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .Sec1 img{
+    width: 75%;
+    height: 80%;
+    border-radius: 50%;
+  }
+
+  .Sec2{
+    height: 620px;
+  }
+
+  .Sec2 h1{
+    font-size: 2.2em;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Cabin', sans-serif;
+  }
+
+  .Sec2 .img-center1{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .Sec2 img{
+    width: 60%;
+    height: 60%;
+    box-shadow: -1px 1px 16px;
+  }
+
+  .Sec2 p{
+    padding-top: 40px;
+    font-size: 13px;
+  }
+
+  .Sec3 h1{
+    font-size: 2.2em;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .Sec3 h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Cabin', sans-serif;
+    padding-bottom: 10px;
+  }
+
+  .Sec3 img{
+    width: 85%;
+    height: 100%;
+    margin-top: 30px;
+  }
+
+  .Sec3 p{
+    font-size: 13px;
+  }
+
+  .Sec4{
+    margin-top: 60px;
+    background-color: #fafafa;
+  }
+
+  .Sec4 h1{
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    padding-top: 25px;
+  }
+
+  .Sec4 form input{
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 90%;
+    height: 36px;
+  }
+
+  .Sec4 form textarea{
+    margin-top: 20px;
+    resize: none;
+  }
+
+  .Sec4 form button{
+    margin-top: 25px;
+    width: 100px;
+  }
+
+  .Sec4 hr{
+    width: 90%;
+    margin-top: 40px;
+  }
+
+  .Sec4 i{
+    margin: 15px;
+    cursor: pointer;
+  }
+
+}

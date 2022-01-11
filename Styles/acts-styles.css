@@ -1,0 +1,104 @@
+body{
+  height: 2000px;
+}
+
+.A-Head{
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.A-Head h1{
+  font-size: 3.5em;
+}
+
+.A1{
+  margin-top: 60px;
+}
+
+.A1 h1{
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.A1 img{
+  width: 100%;
+  height: 450px;
+}
+
+.A2{
+  margin-top: 60px;
+}
+
+.A2 h1{
+  text-align: right;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.A2 img{
+  width: 100%;
+  height: 450px;
+}
+
+.A3{
+  margin-top: 60px;
+}
+
+.A3 h1{
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.A3 img{
+  width: 100%;
+  height: 450px;
+}
+
+.AA-1{
+  opacity: 0;
+}
+
+.AA-1 .animated{
+  opacity: 1;
+}
+
+.AA-2{
+  opacity: 0;
+}
+
+.AA-2 .animated{
+  opacity: 1;
+}
+
+.AA-3{
+  opacity: 0;
+}
+
+.AA-3 .animated{
+  opacity: 1;
+}
+
+.IA-1{
+  opacity: 0;
+}
+
+.IA-1 .animated{
+  opacity: 1;
+}
+
+.IA-2{
+  opacity: 0;
+}
+
+.IA-2 .animated{
+  opacity: 1;
+}
+
+.IA-3{
+  opacity: 0;
+}
+
+.IA-3 .animated{
+  opacity: 1;
+}

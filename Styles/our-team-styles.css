@@ -1,0 +1,347 @@
+.Header{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header h1{
+  padding-top: 300px;
+  font-size: 4em;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.Header h2{
+  color: #fff;
+  text-align: center;
+  font-family: serif;
+}
+
+.O-Heading{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.O-Heading h1{
+  font-size: 3em;
+  font-family: serif;
+  font-weight: 600;
+}
+
+.MOBILE{
+  display: none;
+}
+
+.container{
+  margin-top: 100px;
+}
+
+.container p{
+  font-family: sans-serif;
+}
+
+.O1 h1{
+  margin-bottom: 30px;
+  font-family: serif;
+  font-weight: 500;
+}
+
+.O1 img{
+  width: 90%;
+  height: 100%;
+}
+
+.O2{
+  margin-top: 60px;
+}
+
+.O2 img{
+  width: 90%;
+  height: 100%;
+}
+
+.Para{
+  left: 8%;
+}
+
+.O2 h1{
+  margin-bottom: 30px;
+  font-family: serif;
+  font-weight: 500;
+}
+
+.O3{
+  margin-top: 60px;
+}
+
+.O3 h1{
+  margin-bottom: 30px;
+  font-family: serif;
+  font-weight: 500;
+}
+
+.Image{
+  left: 8%;
+}
+
+.O3 img{
+  width: 90%;
+  height: 100%;
+}
+
+.O4{
+  margin-top: 60px;
+}
+
+.O4 h1{
+  margin-bottom: 30px;
+  font-family: serif;
+  font-weight: 500;
+}
+
+.O4 img{
+  width: 90%;
+  height: 100%;
+}
+
+.O5{
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+
+.O5 h1{
+  margin-bottom: 30px;
+  font-family: serif;
+  font-weight: 500;
+}
+
+.O5 img{
+  width: 90%;
+  height: 100%;
+}
+
+p button{
+  background-color: #fff;
+  border: none;
+  color: #898b8a;
+}
+
+p button:hover{
+  text-decoration: underline;
+}
+
+.Block{
+  display: block inline;
+}
+
+.None{
+  display: none;
+}
+
+.O1-E1{
+  opacity: 0;
+}
+
+.O1-E1 .animated{
+  opacity: 1;
+}
+
+.O1-E2{
+  opacity: 0;
+}
+
+.O1-E2 .animated{
+  opacity: 1;
+}
+
+.O1-E3{
+  opacity: 0;
+}
+
+.O1-E3 .animated{
+  opacity: 1;
+}
+
+.O2-E1{
+  opacity: 0;
+}
+
+.O2-E1 .animated{
+  opacity: 1;
+}
+
+.O2-E2{
+  opacity: 0;
+}
+
+.O2-E2 .animated{
+  opacity: 1;
+}
+
+.O2-E3{
+  opacity: 0;
+}
+
+.O2-E3 .animated{
+  opacity: 1;
+}
+
+.O3-E1{
+  opacity: 0;
+}
+
+.O3-E1 .animated{
+  opacity: 1;
+}
+
+.O3-E2{
+  opacity: 0;
+}
+
+.O3-E2 .animated{
+  opacity: 1;
+}
+
+.O3-E3{
+  opacity: 0;
+}
+
+.O3-E3 .animated{
+  opacity: 1;
+}
+
+.O4-E1{
+  opacity: 0;
+}
+
+.O4-E1 .animated{
+  opacity: 1;
+}
+
+.O4-E2{
+  opacity: 0;
+}
+
+.O4-E2 .animated{
+  opacity: 1;
+}
+
+.O4-E3{
+  opacity: 0;
+}
+
+.O4-E3 .animated{
+  opacity: 1;
+}
+
+.O5-E1{
+  opacity: 0;
+}
+
+.O5-E1 .animated{
+  opacity: 1;
+}
+
+.O5-E2{
+  opacity: 0;
+}
+
+.O5-E2 .animated{
+  opacity: 1;
+}
+
+.O5-E3{
+  opacity: 0;
+}
+
+.O5-E3 .animated{
+  opacity: 1;
+}
+
+@media screen and (max-width: 450px) {
+
+  .Header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header h1{
+    padding-top: 260px;
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+  }
+
+  .Header h2{
+    color: #fff;
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+  }
+
+  nav li .i1{
+     margin-left: 0px;
+   }
+
+  .DESKTOP{
+    display: none;
+  }
+
+  .MOBILE{
+    display: block;
+  }
+
+  .Para{
+    left: 0;
+  }
+
+  .Image{
+    left: 0;
+  }
+
+  .col-lg-6 h1{
+    font-size: 35px;
+  }
+
+  footer{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #fff;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  footer i{
+    font-size: 30px;
+    color: #3f3f44;
+    margin: auto 10px;
+    cursor: pointer;
+  }
+
+  footer h4{
+    margin-top: 25px;
+    color: #414141;
+    font-size: 20px;
+  }
+
+}

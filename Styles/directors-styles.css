@@ -1,0 +1,365 @@
+.MOBILE{
+  display: none;
+}
+
+.D-Head{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.D-Head h1{
+  font-size: 3.5em;
+  font-family: sans-serif;
+}
+
+.container{
+  margin-top: 60px;
+}
+
+.D1{
+  position: relative;
+}
+
+.D2{
+  position: relative;
+  margin-top: 50px;
+}
+
+.col-lg-6 img{
+  width: 100%;
+  height: 100%;
+}
+
+.col-lg-6 .pp{
+  top: 20px;
+  font-family: sans-serif;
+}
+
+.col-lg-6 .pppp{
+  top: 200px;
+  font-family: sans-serif;
+}
+
+.col-lg-6 .pppp i{
+  position: absolute;
+  top: 10px;
+}
+
+.col-lg-6 .IIII{
+  left: -7%;
+}
+
+.F1{
+  font-size: 30px;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
+.FF1{
+  position: absolute;
+  font-size: 30px;
+  top: 120px;
+  left: 290px;
+  cursor: pointer;
+}
+
+.F2{
+  padding-left: 200px;
+  margin-top: -80px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.FF2{
+  position: absolute;
+  left: -20px;
+  top: 130px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.F3{
+  font-size: 30px;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
+.FF3{
+  position: absolute;
+  font-size: 30px;
+  top: 120px;
+  left: 290px;
+  cursor: pointer;
+}
+
+.F4{
+  padding-left: 200px;
+  margin-top: -80px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.FF4{
+  position: absolute;
+  left: -20px;
+  top: 130px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.para-1{
+  position: absolute;
+  width: 800px;
+  height: 290px;
+  background-color: rgba(12,13,13,0.92);
+  top: -25px;
+}
+
+.para-1 h3{
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.para-1 p{
+  color: #fff;
+  padding-left: 20px;
+  font-size: 16px;
+  width: 750px;
+}
+
+.para-1 button{
+  margin-left: 20px;
+}
+
+.para-2{
+  position: absolute;
+  width: 800px;
+  height: 290px;
+  background-color: rgba(12,13,13,0.92);
+  top: -25px;
+  left: -280px;
+}
+
+.para-2 h3{
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.para-2 p{
+  color: #fff;
+  padding-left: 20px;
+  font-size: 16px;
+  width: 750px;
+}
+
+.para-2 button{
+  margin-left: 20px;
+}
+
+.para-3{
+  position: absolute;
+  width: 800px;
+  height: 290px;
+  background-color: rgba(12,13,13,0.92);
+  top: -25px;
+}
+
+.para-3 h3{
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.para-3 p{
+  color: #fff;
+  padding-left: 20px;
+  font-size: 16px;
+  width: 750px;
+}
+
+.para-3 button{
+  margin-left: 20px;
+}
+
+.para-4{
+  position: absolute;
+  width: 800px;
+  height: 290px;
+  background-color: rgba(12,13,13,0.92);
+  top: -25px;
+  left: -280px;
+}
+
+.para-4 h3{
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.para-4 p{
+  color: #fff;
+  padding-left: 20px;
+  font-size: 16px;
+  width: 750px;
+}
+
+.para-4 button{
+  margin-left: 20px;
+}
+
+.OPACITY{
+  position: absolute;
+  animation: OPACITY 1s linear;
+  z-index: 111;
+}
+
+@keyframes OPACITY {
+  0%{opacity: 0}
+  20%{opacity: 0.2;}
+  40%{opacity: 0.4;}
+  60%{opacity: 0.6;}
+  80%{opacity: 0.8;}
+  100%{opacity:1;}
+}
+
+.OPACITY-B{
+  position: absolute;
+  animation: OPACITY-B 1.5s linear;
+  z-index: 111;
+}
+
+@keyframes OPACITY-B {
+  0%{opacity: 0}
+  20%{opacity: 0.2;}
+  40%{opacity: 0.4;}
+  60%{opacity: 0.6;}
+  80%{opacity: 0.8;}
+  100%{opacity:1;}
+}
+
+.None{
+  display: none;
+}
+
+.none{
+  opacity: 0;
+}
+
+.HA-1{
+  opacity: 0;
+}
+
+.HA-1 .animated{
+  opacity: 1;
+}
+
+.HA-2{
+  opacity: 0;
+}
+
+.HA-2 .animated{
+  opacity: 1;
+}
+
+.HA-3{
+  opacity: 0;
+}
+
+.HA-3 .animated{
+  opacity: 1;
+}
+
+.HA-4{
+  opacity: 0;
+}
+
+.HA-4 .animated{
+  opacity: 1;
+}
+
+.IA-1{
+  opacity: 0;
+}
+
+.IA-1 .animated{
+  opacity: 1;
+}
+
+.IA-2{
+  opacity: 0;
+}
+
+.IA-2 .animated{
+  opacity: 1;
+}
+
+
+.IA-3{
+  opacity: 0;
+}
+
+.IA-3 .animated{
+  opacity: 1;
+}
+
+
+.IA-4{
+  opacity: 0;
+}
+
+.IA-4 .animated{
+  opacity: 1;
+}
+
+@media screen and (max-width: 450px) {
+
+  .DESKTOP{
+    display: none;
+  }
+
+  .MOBILE{
+    display: block;
+  }
+
+  .D-Head h1{
+    font-size: 3.0em;
+    font-family: 'Libre Franklin', sans-serif;
+  }
+
+  .M-D{
+    text-align: center;
+  }
+
+  .M-D img{
+    width: 70%;
+    height: 100%;
+    margin-bottom: 25px;
+  }
+
+  .M-D h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+  }
+
+  .M-D p{
+    width: 320px;
+    margin-left: 15px;
+    font-family: 'Libre Caslon Text', serif;
+  }
+
+  .M-D button{
+    margin-bottom: 60px;
+    margin-top: 10px;
+    width: 86px;
+    box-shadow: 0px 0px 2px 0px #313539;
+  }
+
+  .M-D a{
+    color: #fff;
+    outline: none;
+  }
+
+}
